@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.29653322.css","mappings":"AAAA,UACI,WACJ,CACA,KACI,wBACJ","sources":["index.css"],"sourcesContent":["html , body {\r\n    height: 100%;\r\n}\r\nbody{\r\n    background-color:cadetblue;\r\n}"],"names":[],"sourceRoot":""}
