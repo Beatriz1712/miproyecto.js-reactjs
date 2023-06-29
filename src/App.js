@@ -1,24 +1,23 @@
-
-import './App.css';
+import Header from "./Header"
+import Footer from "./Footer"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (//ahora es parecido a html,despues del fragmento
+    <> 
+    
+       <h1>lo lograremos!</h1>
+       <h2>Dios con nosotros</h2>
+       //ojo uso de style
+
+       <Header/>
+
+        <main className="main" style ={{color: "black", backgroundColor: "yellow"}}>
+          <h2>Soy main,soy home</h2>
+        </main>
+        
+      <Footer/>
+     </>
+    
   );
 }
 
